@@ -18,4 +18,8 @@ Frontend
   - avoid using webpack
 - GitHub actions pipeline
 
+## Pre NodeJS
+
+I want to try technologies out technologies pre Node era.
+
 Backend Project - [GitHub URL Here]
