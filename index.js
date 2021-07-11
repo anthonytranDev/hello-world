@@ -1,6 +1,8 @@
 'use strict';
 
 var defaultText = 'Hello World!';
+var text;
+
 var InputField;
 var Form;
 
@@ -17,7 +19,6 @@ window.onload = function () {
 	Form = document.getElementById('form');
 
 	InputField.setAttribute('value', defaultText);
-
 	InputField.addEventListener('change', handleChange);
 
 	Form.addEventListener('submit', handleSubmit);
