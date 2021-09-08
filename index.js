@@ -16,6 +16,6 @@ window.onload = function () {
 	var Form = document.getElementById('form');
 			Form.onsubmit = handleSubmit;
 
-	var InputField = document.getElementById('echo-input');
+	var InputField = document.getElementById('input');
 			InputField.onchange = handleChange;
 };
