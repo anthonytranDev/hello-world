@@ -1,10 +1,6 @@
 'use strict';
 
-var defaultText = 'Hello World!';
 var text;
-
-var InputField;
-var Form;
 
 function handleChange(event) {
 	text = event.target.value;
@@ -14,12 +10,12 @@ function handleSubmit(event) {
 	event.preventDefault();
 }
 
+
 window.onload = function () {
-	InputField = document.getElementById('echo-input');
-	Form = document.getElementById('form');
 
-	InputField.setAttribute('value', defaultText);
-	InputField.addEventListener('change', handleChange);
+	var Form = document.getElementById('form');
+			Form.onsubmit = handleSubmit;
 
-	Form.addEventListener('submit', handleSubmit);
+	var InputField = document.getElementById('echo-input');
+			InputField.onchange = handleChange;
 };
