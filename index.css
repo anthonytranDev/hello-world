@@ -21,6 +21,7 @@ input {
 input[type=text]{
   padding: 0.25em 0.5em;
   margin-right: 0.25em; 
+  min-width: 250px;
   border: 2px solid #777777;
   color: #222222;
   background: #fefefe;
