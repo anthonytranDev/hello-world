@@ -4,8 +4,9 @@ Basic "Hello World" project to get the ball rolling with me getting use to colla
 
 ## Specification
 
-Frontend
+### Aims
 
+- refrain from using modern syntax - more modern syntax will be used in another project
 - has default text "Hello World!" input field
   - onload post request of initial message
   - recieve same "Hello World!" message back
