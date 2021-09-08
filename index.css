@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #fefefe;
+}
+
+h1, p {
+  font-family: 'Courier New', Courier, monospace;
+  color: #222222;
+}
+
+input {
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+input[type=text]{
+  padding: 0.25em 0.5em;
+  margin-right: 0.25em; 
+  border: 2px solid #777777;
+  color: #222222;
+  background: #fefefe;
+}
+
+input[type=submit]{
+  padding: 0.25em 0.5em;
+  border: 2px solid #777777;
+  color: #fefefe;
+  background: #777777;
+}
+
+input[type=submit]:hover{
+  background: #666666;
+}
