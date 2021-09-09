@@ -12,7 +12,6 @@ function handleSubmit(event) {
 
 
 window.onload = function () {
-
 	var Form = document.getElementById('form');
 			Form.onsubmit = handleSubmit;
 
